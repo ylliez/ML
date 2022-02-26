@@ -10,7 +10,7 @@ machine learning, supervised learning, artificial intelligence, neural networks
 ### [TF tutorial](https://www.tensorflow.org/js/tutorials)
 #### [TF setup](https://www.tensorflow.org/js/tutorials/setup)
 ##### script tag:
-<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+`<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>`
 ### [TF models](https://www.tensorflow.org/js/models)
 ### [TF demos](https://www.tensorflow.org/js/demos)
 #### [TF examples](https://github.com/tensorflow/tfjs-examples)
