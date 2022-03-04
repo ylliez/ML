@@ -2,10 +2,6 @@
 
 machine learning, supervised learning, artificial intelligence, neural networks  
 
-
- https://www.tensorflow.org/js/tutorials
-
-
 ## [TensorFlow](https://www.tensorflow.org/) ([GitHub](https://github.com/tensorflow/tensorflow))
 "TensorFlow is an end-to-end open source platform for machine learning." (endo)
 "TensorFlow is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks.
@@ -26,7 +22,7 @@ Version of TensorFlow for JavaScript-based browser use.
 Pre-trained TFJS models
 
 
-## [ml5.js](https://ml5js.org/)
+## [ml5.js](https://ml5js.org/) ([GitHub](https://github.com/ml5js/ml5-library))
 Simplified interface for Tensorflow.js
 "ml5.js aims to make machine learning approachable for a broad audience of artists, creative coders, and students. The library provides access to machine learning algorithms and models in the browser, building on top of TensorFlow.js with no other external dependencies." (endo)
 ### [Dan Schiffman's guide](https://www.youtube.com/watch?v=jmznx0Q1fP0)
@@ -39,17 +35,17 @@ Simplified interface for Tensorflow.js
 ### [MediaPipe Hands](https://google.github.io/mediapipe/solutions/hands.html) ([Model Card](https://drive.google.com/file/d/1-rmIgTfuCbBPW_IFHkh3f0-U_lnGrWpg/view))
 
 ## Hand Recognition
+### [TFJS/MediaPipe Hand Pose Detection]()
+[GitHub](https://github.com/tensorflow/tfjs-models/tree/master/hand-pose-detection)
+[Tester](https://storage.googleapis.com/tfjs-models/demos/hand-pose-detection/index.html?model=mediapipe_hands)
+[Blog Post](https://blog.tensorflow.org/2021/11/3D-handpose.html)
 ### Legacy/deprecated - single hand
 #### [TFJS/MediaPipe Handpose](https://github.com/tensorflow/tfjs-models/tree/master/handpose)
 MediaPipe Handpose is a lightweight ML pipeline consisting of two models: A palm detector and a hand-skeleton finger tracking model. It predicts 21 3D hand keypoints per detected hand.
 #### [ml5.js Handpose](https://learn.ml5js.org/#/reference/handpose)
 Handpose is a machine-learning model that allows for palm detection and hand-skeleton finger tracking in the browser. It can detect a maximum of one hand at a time and provides 21 3D hand keypoints that describe important locations on the palm and fingers.
 The ml5.js Handpose model is ported from the TensorFlow.js Handpose implementation.
-### current
-#### [TFJS/MediaPipe Hand Pose Detection]()
-[GitHub](https://github.com/tensorflow/tfjs-models/tree/master/hand-pose-detection)
-[Tester](https://storage.googleapis.com/tfjs-models/demos/hand-pose-detection/index.html?model=mediapipe_hands)
-[Blog Post](https://blog.tensorflow.org/2021/11/3D-handpose.html)
+
 
 
 ## Other
