@@ -1,9 +1,9 @@
 # 220224 - ML Workshop (Milieux x Frederik de Bleser)
 
 ## Links
-[Workshop event](https://www.eventbrite.ca/e/creative-machine-learning-using-figment-tickets-254585962467)
-[Workshop video](https://www.youtube.com/watch?v=J4mnzP7nP0Y)
-[Figment](https://figmentapp.com/)
+[Workshop event](https://www.eventbrite.ca/e/creative-machine-learning-using-figment-tickets-254585962467)  
+[Workshop video](https://www.youtube.com/watch?v=J4mnzP7nP0Y)  
+[Figment](https://figmentapp.com/)  
 [Algorithmic Gaze](https://algorithmicgaze.com/)
 
 ## Notes
@@ -65,14 +65,14 @@ mkdir (make directory)
 
 
 RUN
-in J, SHIFT+ENTER to run cell
-edit cell 8 (?) project directory to input and output directories!!
-Takes a few hours to train BUT no load on physical computer
-Creates a generator.zip files (e.g. https://bit.ly/36l8c44)
+in J, SHIFT+ENTER to run cell  
+edit cell 8 (?) project directory to input and output directories!!  
+Takes a few hours to train BUT no load on physical computer  
+Creates a generator.zip files (e.g. https://bit.ly/36l8c44)  
 
 
-Upload generator.zip to ‘dancer’ folder then unzip through terminal (ls -> cd -> unzip generator.zip)
-In pix2pix_generate, change project directory to ‘dancer’, dataset_dir to , output_image_dir, output_dir and ‘glob pattern’.
+Upload generator.zip to ‘dancer’ folder then unzip through terminal (ls -> cd -> unzip generator.zip)  
+In pix2pix_generate, change project directory to ‘dancer’, dataset_dir to , output_image_dir, output_dir and ‘glob pattern’.  
 
 dancer/dancer/output/v001/generator’ and 
 
@@ -82,7 +82,7 @@ Images in “dancer/dancer/output/v001/sequence” -> convert to video in other 
 
 
 ### Post
-Convert generator to TensorFlow.js model as tfjs.zip (e.g. https://bit.ly/3skz8z5) using (convert_to_tfjs.ipynb) -> unzip to ‘tfjs model’
+Convert generator to TensorFlow.js model as tfjs.zip (e.g. https://bit.ly/3skz8z5) using (convert_to_tfjs.ipynb) -> unzip to ‘tfjs model’  
 Image to Image Model (0.3.7)
 
 TF.js model can be used in Figment in ‘Image-to-Image Model’, needs model and image sized 512x512.
