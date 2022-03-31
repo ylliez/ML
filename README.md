@@ -39,6 +39,8 @@ Simplified interface for Tensorflow.js
 [GitHub](https://github.com/tensorflow/tfjs-models/tree/master/hand-pose-detection)  
 [Tester](https://storage.googleapis.com/tfjs-models/demos/hand-pose-detection/index.html?model=mediapipe_hands)  
 [Blog Post](https://blog.tensorflow.org/2021/11/3D-handpose.html)  
+#### [Setup - MediaPipe](https://github.com/tensorflow/tfjs-models/tree/master/hand-pose-detection/src/mediapipe)  
+#### [Setup - TFJS](https://github.com/tensorflow/tfjs-models/tree/master/hand-pose-detection/src/tfjs)  
 ### Legacy/deprecated - single hand
 #### [TFJS/MediaPipe Handpose](https://github.com/tensorflow/tfjs-models/tree/master/handpose)
 MediaPipe Handpose is a lightweight ML pipeline consisting of two models: A palm detector and a hand-skeleton finger tracking model. It predicts 21 3D hand keypoints per detected hand.
