@@ -1,0 +1,5 @@
+Vedas (https://archive.org/stream/FourVedasEnglishTranslation/Four-Vedas-English-Translation_djvu.txt)
+delete intro & table of contents
+^Rig.*$\n
+^hymn.*$\n
+^\{.*$\n --> brackets
