@@ -65,7 +65,7 @@ for (let i = 0; i < textTitle.length; i++) {
 function handleWCData(req, res) {
     res.send([textTitle, textTotalWords, textUniqueWords]);
 }
-console.log([textTitle, textTotalWords, textUniqueWords]);
+// console.log([textTitle, textTotalWords, textUniqueWords]);
 
 
 // TF
@@ -104,7 +104,7 @@ function handleTFData(req, res) {
 }
 // const converter = require('convert-array-to-csv');
 // const csvFromArrayOfArrays = convertArrayToCSV(textTFNorm)
-// console.log(textTFNorm);
+console.log(textTFNorm);
 
 
 // TF-IDF
