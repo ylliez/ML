@@ -104,7 +104,7 @@ function handleTFData(req, res) {
 }
 // const converter = require('convert-array-to-csv');
 // const csvFromArrayOfArrays = convertArrayToCSV(textTFNorm)
-console.log(textTFNorm);
+// console.log(textTFNorm);
 
 
 // TF-IDF
