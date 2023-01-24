@@ -274,7 +274,7 @@ for (let j = 0; j < searchTerm.length; j++) {
     textSingleFrequencyArrays.push(tfarray);
 }
 
-// console.log(textSingleFrequency);
+console.log(textSingleFrequency);
 
 // send to visualizer
 function handleSinglesData(req, res) {
