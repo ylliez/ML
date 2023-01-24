@@ -20,38 +20,38 @@ window.onload = function () {
         WordCloud(document.getElementById(`TFcanvas${i}`), { list: TFdata[i] });
     }
 
-    let TFIDFdata =
-        $.get(
-            "/getTFIDF",
-            (res) => {
-                // console.log(res.length);
-                // console.log(res[0]);
-                for (let i = 0; i < res.length; i++) {
-                    WordCloud(document.getElementById(`TFIDFcanvas${i}`), { list: res[i] });
-                }
-            }
-        );
+    // let TFIDFdata =
+    //     $.get(
+    //         "/getTFIDF",
+    //         (res) => {
+    //             // console.log(res.length);
+    //             // console.log(res[0]);
+    //             for (let i = 0; i < res.length; i++) {
+    //                 WordCloud(document.getElementById(`TFIDFcanvas${i}`), { list: res[i] });
+    //             }
+    //         }
+    //     );
 
-    $.get(
-        "/getSentiment",
-        (res) => {
-            // console.log(res);
-            makeBarChart(`svg3`, res, [-1, 1]);
-        }
-    );
+    // $.get(
+    //     "/getSentiment",
+    //     (res) => {
+    //         // console.log(res);
+    //         makeBarChart(`svg3`, res, [-1, 1]);
+    //     }
+    // );
 
-    $.get(
-        "/getSingles",
-        (res) => {
-            // // console.log(res);
-            // console.log(res.texts);
-            // // makeBarChart(`svg4`, res.pain, [0, 1]);
-            // for (let i in res) {
-            //     makeBarChart(`svgSingles${i}`, res[i], [0, 1]);
-            // }
-            makeGroupedBarChart(`svg4`, res);
-        }
-    );
+    // $.get(
+    //     "/getSingles",
+    //     (res) => {
+    //         // // console.log(res);
+    //         // console.log(res.texts);
+    //         // // makeBarChart(`svg4`, res.pain, [0, 1]);
+    //         // for (let i in res) {
+    //         //     makeBarChart(`svgSingles${i}`, res[i], [0, 1]);
+    //         // }
+    //         makeGroupedBarChart(`svg4`, res);
+    //     }
+    // );
 
 
     //     groupedData = {
