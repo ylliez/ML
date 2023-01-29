@@ -3,3 +3,9 @@ delete intro & table of contents
 ^Rig.*$\n
 ^hymn.*$\n
 ^\{.*$\n --> brackets
+^\d*\s --> number + whitespace
+^\d+.\s --> number + period + whitespace
+^$\n --> empty line w/ linebreak
+^book.*$\n --> line with book
+^chapter.*$\n --> line with chapter
+^decade.*$\n --> line with decade
