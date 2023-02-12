@@ -84,3 +84,14 @@ Apophenia, Apophenic Apocrypha The Book of Apophenius, The Book of Apocryphus
     - Marcus Aurelius' Meditations
 - Implementations
     - [Sentiment Analysis of Religious Texts](https://www.kaggle.com/code/vermashashank/sentiment-analysis-of-religious-texts/data)
+
+
+#### Weight
+| title | lines (k) | words | ? 
+| - | - | - | - 
+| Bible | 31k	| 4.2M |
+| Quran | 13.5k | 800k |
+| Bgita | 18 | 800k |
+| Vedas | 48 | 3.3M |
+| Kafka | 2 | 120k |
+| Wittg | 2 | 100k |
